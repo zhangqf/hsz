@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>personal</title>
+    <link rel="stylesheet" href="./css/jifen.css" type=" text/css ">
+    <script src="./common/flexible_css.debug.js " type="text/javascript "></script>
+    <script src="./common/flexible.debug.js " type="text/javascript "></script>
+</head>
+
+<body>
+    <div class="ui-personal-header ">
+        <h4>
+            <a href=" ">
+                <img src="./images/back_arrow.png " alt=" ">
+            </a> 个人中心 </h4>
+        <p class="ui-personal-welcome ">当前56662积分</p>
+        <div class="ui-personal-img ">
+            <div class="ui-personal-blur ">
+                <!--   <a href="">
+                    <img src="./images/scimg1_03.png " alt=" ">
+                </a> -->
+            </div>
+            <input type="file" id="files" style="display: none" onchange="fileImport();">
+        </div>
+        <!-- shangchengtouxiang -->
+        <a href="">
+            <img src="./images/scimg1_03.png " alt=" ">
+        </a>
+        <div class="ui-personal-bg ">
+            <div class="ui-personal-show ">
+                <div class="ui-personal-left ">
+                    <p class="ui-personal-desc ">已兑换积分</p>
+                    <p class="ui-num ">50000</p>
+                </div>
+                <div class="ui-personal-right ">
+                    <p class="ui-personal-desc ">剩余积分</p>
+                    <p class="ui-num ">6662</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui-content">
+        <ul class="ui-content-list">
+            <li>
+                <div class="ui-list-left">
+                    <p>参加[平台在线学习]奖励</p>
+                    <span>
+                        2018-07-28
+                    </span>
+                </div>
+                <div class="ui-list-right">+60</div>
+            </li>
+            <li>
+                <div class="ui-list-left">
+                    <p>参加[平台在线学习]奖励</p>
+                    <span>
+                        2018-07-28
+                    </span>
+                </div>
+                <div class="ui-list-right">+60</div>
+            </li>
+            <li>
+                <div class="ui-list-left">
+                    <p>参加[平台在线学习]奖励</p>
+                    <span>
+                        2018-07-28
+                    </span>
+                </div>
+                <div class="ui-list-right">+60</div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="./common/jquery-1.11.0.js"></script>
+    <script>
+        var width1 = $(".ui-personal-left").innerWidth();
+        var width2 = $(".ui-personal-right").innerWidth();
+        var width = width1 > width2 ? width1 + 4 : width2 + 4;
+        $(".ui-personal-left").width(width);
+        $(".ui-personal-right").width(width);
+    </script>
+</body>
+
+</html>

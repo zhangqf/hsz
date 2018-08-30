@@ -1,0 +1,152 @@
+html,body{
+    height: 100%;
+    background: #f6f6f6;
+}
+.ui-claimdetial-header{
+    width: 10rem;
+    height: 1.12rem;
+    background: #fc4c56;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    line-height: 1.12rem;
+    position: relative;
+  
+        a{
+           
+            // position: absolute;
+            // top:center;
+            // left:.426667rem;
+            line-height: 1.12rem;
+            display: inline-block;
+           
+        }
+        .headerleft{
+             width: .333333rem;
+            height: 1.12rem;
+            float: left;
+            margin-left:.426667rem;
+             img{
+                width: .333333rem;
+                height: .56rem;
+                vertical-align: text-bottom;
+            }
+        }
+        .headerright{
+            width: .533333rem;
+             height: 1.12rem;
+            float: right;
+            margin-right:.426667rem;
+            img{
+                width:.56rem;
+                height: .626667rem;
+                vertical-align: middle;
+            }
+        }
+}
+[data-dpr="2"] .ui-claimdetial-header{
+    font-size: 36px;
+}
+[data-dpr="3"] .ui-claimdetial-header{
+    font-size: 54px;
+}
+
+.ui-donationclaim-content{
+    width: 10rem;
+   
+    .ui-donationclaim-btn{
+        width: 9.36rem;
+         margin-left: auto;
+    margin-right: auto;
+        font-size: 0;
+        margin-top: .32rem;
+        margin-bottom: .32rem;
+        &>a{
+            display: inline-block;
+            color: #fff;
+            background: #ff5452;
+            text-align: center;
+            width: 4.053333rem;
+            height: 1.066667rem;
+            line-height: 1.066667rem;
+            margin-left: .346667rem;
+            margin-right: .186667rem;
+            font-size: 16px;
+            border-radius: 8px;
+            -ms-border-radius:8px;
+            -webkit-border-radius:8px;
+            -moz-border-radius:8px;
+            -o-border-radius:8px;
+            [data-dpr="2"] & {
+                font-size: 32px;
+            border-radius: 16px;
+            -ms-border-radius:16px;
+            -webkit-border-radius:16px;
+            -moz-border-radius:16px;
+            -o-border-radius:16px;
+            }
+            [data-dpr="3"] & {
+                font-size: 48px;
+            border-radius: 24px;
+            -ms-border-radius:24px;
+            -webkit-border-radius:24px;
+            -moz-border-radius:24px;
+            -o-border-radius:24px;
+            }
+        }
+    }
+    .ui-donationclaim-list{
+       
+        li{
+            background: #fff;
+            padding-left: .32rem;
+            padding-right: .32rem;
+            border-radius: 8px;
+            -ms-border-radius:8px;
+            -webkit-border-radius:8px;
+            -moz-border-radius:8px;
+            -o-border-radius:8px;
+            overflow: hidden;
+            margin-bottom: .32rem;
+            [data-dpr="2"] & {
+               
+            border-radius: 16px;
+            -ms-border-radius:16px;
+            -webkit-border-radius:16px;
+            -moz-border-radius:16px;
+            -o-border-radius:16px;
+            }
+            [data-dpr="3"] & {
+              
+            border-radius: 24px;
+            -ms-border-radius:24px;
+            -webkit-border-radius:24px;
+            -moz-border-radius:24px;
+            -o-border-radius:24px;
+            }
+            
+                p{
+                    font-size: 14px;
+                    color: #3a3a3a;
+                    [data-dpr="2"] & {
+                        font-size: 28px;
+                    }
+                    [data-dpr="3"] & {
+                        font-size: 42px;
+                    }
+                    &>span{
+                        color: #888888;
+                    }
+                }
+                p.ui-donation-person,p.ui-donation-times,p.ui-claim-person,p.ui-claim-times{
+                   height: .986667rem;
+                   line-height: .986667rem;
+                }
+                p.ui-donation-content，.p.ui-claim-content{
+                    line-height: .56rem;
+                }
+            }
+
+    }
+
+}

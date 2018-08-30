@@ -1,0 +1,283 @@
+html,body{
+    height: 100%;
+    min-height: 100%;
+    background: #f0f0f0;
+}
+.ui-recordofdonation-header{
+    width: 10rem;
+    height: 1.12rem;
+    background: #fc4c56;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    line-height: 1.12rem;
+    position: relative;
+  
+        a{
+            width: .333333rem;
+            height: 1.12rem;
+            position: absolute;
+            top:center;
+            left:.426667rem;
+            line-height: 1.12rem;
+            display: inline-block;
+            img{
+                width: .333333rem;
+                height: .56rem;
+                vertical-align: text-bottom;
+            }
+        }
+}
+[data-dpr="2"] .ui-recordofdonation-header{
+    font-size: 36px;
+}
+[data-dpr="3"] .ui-recordofdonation-header{
+    font-size: 54px;
+}
+
+.ui-bannerimg{
+    width: 10rem;
+    height: 3.093333rem;
+    margin-bottom:.32rem;
+    overflow: hidden;
+    background: url('../images/conditionbanner_02.png') no-repeat center center;
+    background-size: 100% 100%;
+    &>p{
+        width: 8.053333rem;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        color: #ff5452;
+        font-size: 14px;
+        height: .64rem;
+        line-height: .64rem;
+        [data-dpr="2"] & {
+            font-size: 28px;
+        }
+        [data-dpr="3"] & {
+            font-size: 42px;
+        }
+        &.ui-imgtit{
+            margin-top: .48rem;
+            font-size: 18px;
+            height: .8rem;
+            line-height: .8rem;
+            font-weight:600;
+            [data-dpr="2"] & {
+                font-size: 36px;
+            }
+            [data-dpr="3"] & {
+                font-size: 54px;
+            }
+        }
+    }
+    
+
+}
+div.ui-condition-desc{
+    width: 10rem;
+    height: auto;
+    border-radius: .133333rem;
+    background: #fff;
+}
+div.ui-condition-desc p{
+     width: 9.36rem;
+     margin-left: auto ;
+     margin-right: auto;
+     line-height: .586667rem;
+   
+}
+div.ui-condition-desc p.ui-pzero{
+    width: 9.36rem;
+    // height:2.906667rem;
+    background: #fff;
+    padding: .306667rem  0;
+    // margin-bottom:.306667rem;
+    // line-height: .586667rem;
+    font-size: 12px;
+    border-bottom: 2px solid #f0f0f0;
+    // text-overflow: ellipsis;
+    // -webkit-box-orient: vertical;
+    // -webkit-line-clamp: 5;
+    // overflow: hidden;
+    // display: -webkit-box;
+    // box-sizing:border-box;
+}
+div.ui-condition-desc p.ui-pfirst{
+    overflow: hidden;
+    color: #393939;
+    font-weight: 600;
+    padding: .306667rem  0;
+    border-bottom: 2px solid #f0f0f0;
+    span{
+        display: block;
+        &:nth-of-type(1){
+            width: .64rem;
+            float: left;
+        }
+         &:nth-of-type(2){
+             width: 8.72rem;
+            float: right;
+        }
+    }
+    
+}
+.ui-condition-btn {
+    width: 10rem;
+    height: 1.386667rem;
+    font-size: 0;
+    border-top:2px solid #f0f0f0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    .ui-btn-left{
+        width: 5rem;
+        height: 1.386667rem;
+        line-height: 1.386667rem;
+        display: inline-block;
+        color: #3b3b3b;
+        background:#fff;
+        font-size: 16px;
+        text-align: center;
+        a{
+            width: 100%;
+            display: inline-block;
+           color: #3b3b3b; 
+        }
+    }
+    .ui-btn-right{
+        width: 5rem; 
+        height: 1.386667rem; 
+        line-height: 1.386667rem;
+        display: inline-block; 
+        background:#ff5452;
+        color:#fff;
+         font-size: 16px;
+        text-align: center;
+        a{
+            width: 100%;
+            display: inline-block;
+           color:#fff; 
+        }
+    }
+}
+[data-dpr='2'] div.ui-condition-desc p{
+    font-size: 24px;
+}
+[data-dpr="3"] div.ui-condition-desc p{
+    font-size: 36px;
+}
+[data-dpr="2"] .ui-condition-btn .ui-btn-left,[data-dpr="2"] .ui-condition-btn .ui-btn-right{
+    font-size: 32px;
+}
+[data-dpr="3"] .ui-condition-btn .ui-btn-left,[data-dpr="3"] .ui-condition-btn .ui-btn-right{
+    font-size: 48px;
+}
+
+
+
+
+
+
+
+
+
+.shade{
+    background: rgba(33,33,33,.8);
+    position: fixed;
+    top:0;
+    left: 0;
+    display: block;
+    overflow: hidden;
+}
+
+.ui-condition-tips{
+    background: #fff;
+    width: 9.36rem;
+    height:7.12rem;
+     border-radius: 8px;
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     margin: auto;
+    h6{
+        height:1.6rem ;
+        line-height: 1.6rem;
+        font-size: 20px;
+        text-align: center;
+    }
+    p{
+        width: 8.053333rem;
+        color: #999999;
+        font-size: 14px;
+        line-height: .586667rem;
+        margin-left: auto;
+        margin-right: auto;
+         margin-bottom: .826667rem;
+        span{
+            color: #ff5452;
+        }
+    }
+    .ui-tips-btn{
+        width: 8.466667rem;
+      
+        font-size: 16px;
+        margin: auto;
+        .btn-left{
+            width: 3.973333rem;
+            height: 1.36rem;
+            background: #f0f0f0;
+            color: #3b3b3b;
+            display:inline-block;
+            text-align: center;
+            line-height: 1.36rem;
+            border-radius: 8px;
+            margin-right: .406667rem;
+        }
+        .btn-right{
+            width: 3.973333rem;
+            height: 1.36rem;
+            color: #ffffff;
+            background: #ff5452;
+            display: inline-block;
+             text-align: center;
+            line-height: 1.36rem;
+            border-radius: 8px;
+        }
+    }
+}
+[data-dpr='2'] .ui-condition-tips {
+border-radius: 16px;
+}
+[data-dpr='3'] .ui-condition-tips {
+ border-radius: 24px;
+}
+[data-dpr='2'] .ui-condition-tips h6{
+    font-size: 40px;
+}
+[data-dpr='3'] .ui-condition-tips h6{
+    font-size: 60px;
+}
+[data-dpr='2'] .ui-condition-tips p{
+    font-size: 28px;
+}
+[data-dpr='3'] .ui-condition-tips p{
+    font-size: 42px;
+}
+[data-dpr='2'] .ui-condition-tips .ui-tips-btn .btn-right,[data-dpr='2'] .ui-condition-tips .ui-tips-btn .btn-left{
+    border-radius: 16px;
+}
+[data-dpr='3'] .ui-condition-tips .ui-tips-btn .btn-right [data-dpr='3'] .ui-condition-tips .ui-tips-btn .btn-left
+{
+    border-radius: 24px;
+}
+[data-dpr='2'] .ui-condition-tips .ui-tips-btn{
+    font-size: 32px;
+    
+}
+[data-dpr='3'] .ui-condition-tips .ui-tips-btn{
+    font-size: 48px;
+   
+}

@@ -1,0 +1,121 @@
+.ui-changephone1-container {
+  margin-top: .373333rem;
+}
+p {
+  height: .933333rem;
+  line-height: .933333rem;
+  color: #888888;
+  text-align: left;
+  text-indent: .4rem;
+  font-size: 14px;
+}
+p span {
+  color: #fa455c;
+}
+[data-dpr="2"] p {
+  font-size: 28px;
+}
+[data-dpr="3"] p {
+  font-size: 42px;
+}
+p.ui-phone-num {
+  height: .933333rem;
+  background: #fff;
+  line-height: .933333rem;
+  margin-top: .133333rem;
+  position: relative;
+  background-size: .493333rem .493333rem;
+}
+p.ui-phone-num.success {
+  background: #fff url('../images/phoner.png') no-repeat 8.5726667rem center;
+  background-size: .493333rem .493333rem;
+}
+p.ui-phone-num.error {
+  background: #fff url('../images/phonee.png') no-repeat 8.5726667rem center;
+  background-size: .493333rem .493333rem;
+}
+p.ui-phone-num input {
+  background: #fff;
+  width: 4.533333rem;
+  margin-left: .186667rem;
+  margin-top: 0;
+  text-indent: 0;
+  color: #bdbdbd;
+  font-size: 14px;
+}
+[data-dpr="2"] p.ui-phone-num input {
+  font-size: 28px;
+}
+[data-dpr="3"] p.ui-phone-num input {
+  font-size: 42px;
+}
+p.ui-phone-num input::-moz-placeholder {
+  color: #bdbdbd;
+}
+p.ui-phone-num input::placeholder {
+  color: #bdbdbd;
+}
+p.ui-phone-num input::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+p.ui-phone-num input:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+p.ui-phone-num > span {
+  position: absolute;
+  right: .506667rem;
+  top: .12rem;
+  font-size: 10px;
+  padding: .193333rem .306667rem;
+  line-height: .266667rem;
+  text-indent: 0;
+  text-align: center;
+  border: .023333rem solid #fa455c;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+p.ui-phone-num > span.change {
+  display: none;
+}
+p.ui-phone-num > span > i {
+  font-style: normal;
+}
+[data-dpr="2"] p.ui-phone-num > span {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -moz-border-radius: 10px;
+  font-size: 20px;
+  border: .013333rem solid #fa455c;
+}
+[data-dpr="3"] p.ui-phone-num > span {
+  border: .013333rem solid #fa455c;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -moz-border-radius: 15px;
+  font-size: 30px;
+}
+a.ui-changephone-btn {
+  margin: auto;
+  margin-top: .666667rem;
+  display: block;
+  color: #fff;
+  background: #fa455c;
+  width: 8.666667rem;
+  height: .933333rem;
+  line-height: .933333rem;
+  text-align: center;
+  font-size: 16px;
+}
+[data-dpr="2"] a.ui-changephone-btn {
+  font-size: 32px;
+}
+[data-dpr="3"] a.ui-changephone-btn {
+  font-size: 48px;
+}

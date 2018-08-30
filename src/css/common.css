@@ -1,0 +1,70 @@
+html,
+body {
+  height: 100%;
+  background: #f6f6f6;
+}
+.ui-itemlist-header {
+  width: 10rem;
+  height: 1.12rem;
+  z-index: 10;
+  margin-bottom: .106667rem;
+}
+.ui-itemlist-header h4 {
+  font-size: 18px;
+  color: #333333;
+  height: 1.173333rem;
+  width: 10rem;
+  text-align: center;
+  line-height: 1.173333rem;
+  border-bottom: .013333rem solid #cacaca;
+  position: relative;
+}
+.ui-itemlist-header h4 a.headerleft {
+  width: .333333rem;
+  height: .56rem;
+  position: absolute;
+  top: .133333rem;
+  left: .426667rem;
+  line-height: 1.173333rem;
+  display: inline-block;
+}
+.ui-itemlist-header h4 a.headerleft img {
+  width: .333333rem;
+  height: .56rem;
+}
+.ui-itemlist-header h4 a.headerright {
+  position: absolute;
+  top: .033333rem;
+  right: .426667rem;
+  font-size: 16px;
+  color: #888888;
+}
+[data-dpr="2"] .ui-itemlist-header h4 a.headerright {
+  font-size: 32px;
+}
+[data-dpr="3"] .ui-itemlist-header h4 a.headerright {
+  font-size: 48px;
+}
+[data-dpr="3"] .ui-itemlist-header .ui-itemlist-show {
+  background: #fff url("../images/heng_22.png") no-repeat center 0.666667rem;
+}
+[data-dpr="2"] .ui-itemlist-header h4 {
+  font-size: 36px;
+}
+[data-dpr="3"] .ui-itemlist-header h4 {
+  font-size: 54px;
+}
+input {
+  width: 94%;
+  background: #f6f6f6;
+  border: none;
+  font-size: 16px;
+  margin-top: .346667rem;
+  margin-left: .373333rem;
+}
+[data-dpr="2"] input {
+  font-size: 32px;
+}
+[data-dpr="3"] input {
+  font-size: 48px;
+}

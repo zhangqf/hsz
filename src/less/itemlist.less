@@ -1,0 +1,202 @@
+html{
+    height: 100%;
+    background: #f6f6f6;
+}
+.ui-itemlist-header{
+    width: 10rem;
+    height: 1.12rem;
+    background: #fc4c56;
+    z-index: 10;
+    margin-bottom:.106667rem;
+    h4{
+        font-size: 18px;
+        color: #fff;
+        height: 1.173333rem;
+        width: 10rem;
+        text-align: center;
+        line-height: 1.173333rem;
+        position: relative;
+        a{
+            width: .333333rem;
+            height: .56rem;
+            position: absolute;
+            top:.133333rem;
+            left:.426667rem;
+            line-height: 1.173333rem;
+            display: inline-block;
+            img{
+                width: .333333rem;
+                height: .56rem;
+            }
+        }
+    }
+    
+}
+[data-dpr="3"] .ui-itemlist-header .ui-itemlist-show {
+      background:#fff url("../images/heng_22.png") no-repeat center .666667rem;
+}
+[data-dpr="2"] .ui-itemlist-header h4{
+    font-size: 36px;
+}
+[data-dpr="3"] .ui-itemlist-header h4{
+    font-size: 54px;
+}
+
+.ui-itemlist-content {
+    width: 10rem;
+    padding-bottom: 2.346667rem;
+    background: #f0f0f0;
+    padding-top: .32rem;
+    .ui-itemlist-list{
+        border-radius: .106667rem;
+        background: #fff;
+        width: 9.2rem;
+        // height: 9.066667rem;
+        margin-left: auto;
+        margin-right: auto;
+        li{
+            width: 8.16rem;
+            min-height: 1.493333rem;
+            line-height: 1.493333rem;
+            margin-left:auto;
+            margin-right: auto;
+            border-bottom: .026667rem dashed #f1f1f1;
+             ul.ui-itemlist-detial{
+               width: 8.133333rem;
+               height: auto;
+               overflow: hidden;
+               display: none;
+               li{
+                width: 8.133333rem;
+                height: .533333rem;
+                margin-left: auto;
+                margin-right: auto;
+                background: #fff;
+                border:1px solid #fff;
+                    a{
+                        color: #353535;
+                        text-indent: 0.9rem;
+                        display: block;
+                        border:none;
+                        background-color: rgba(240,240,240,0.2)
+                    }
+               }
+           }
+            // &:nth-of-type(1) a.ui-tu{
+            //     background:url('../images/itemlist01.png') no-repeat left center;
+            //      background-size: .64rem .64rem;
+            // }
+            // &:nth-of-type(2) a.ui-tu{
+            //     background:url('../images/itemlist04.png') no-repeat left center;
+            //      background-size: .64rem .64rem;
+            // }
+            // &:nth-of-type(3) a.ui-tu{
+            //     background:url('../images/itemlist05.png') no-repeat left center;
+            //      background-size: .64rem .64rem;
+            // }
+            // &:nth-of-type(4) a.ui-tu{
+            //     background:url('../images/itemlist06.png') no-repeat left center;
+            //      background-size: .64rem .64rem;
+            // }
+            // &:nth-of-type(5) a.ui-tu{
+            //     background:url('../images/itemlist07.png') no-repeat left center;
+            //      background-size: .64rem .64rem;
+            // }
+            // &:nth-of-type(6) a.ui-tu{
+            //     background:url('../images/itemlist08.png') no-repeat left center;
+            //      background-size: .64rem .64rem;
+            // }
+           a.ui-tu{
+               font-size: 12px;
+               color:#353535;
+               display: block;
+               height:  1.493333rem;
+              
+               span{
+                    &:nth-of-type(1){
+                        // text-indent: .906667rem;
+                        float: left;
+                    }
+                     &:nth-of-type(2){
+                       margin-right: .133333rem;
+                        float: right;
+                        img{
+                            width: .08rem;
+                            height: .133333rem;
+                        }
+                    }
+                }  
+           }
+          
+        }
+    }
+//     .ui-itemlist-aboutus{
+//     width: 9.2rem;
+//     height: 3.226667rem;
+//     background:#fff;
+//     margin-top:.32rem;
+//     margin-left: auto;
+//     margin-right: auto;
+//     border-radius: .106667rem;
+//     li{
+       
+//         width:8.16rem;
+//         height: 1.626667rem;
+//         line-height: 1.626667rem;
+//         border-bottom: .026667rem dashed #f1f1f1;
+//         margin-left:auto;
+//         margin-right: auto;
+//         &:nth-of-type(1) a.ui-tu{
+//             background: url('../images/itemlist02.png') no-repeat left center;
+//              background-size: .64rem .64rem;
+//         }
+//         &:nth-of-type(2) a.ui-tu{
+//              background: url('../images/itemlist03.png') no-repeat left center;
+//               background-size: .64rem .64rem;
+//         }
+//          a.ui-tu{
+//                font-size: 12px;
+//                color:#353535;
+//                display: block;
+//                height: 100%;
+//                span{
+//                     &:nth-of-type(1){
+//                         text-indent: .906667rem;
+//                         float: left;
+//                     }
+//                      &:nth-of-type(2){
+//                        margin-right: .133333rem;
+//                         float: right;
+//                     }
+//                 }  
+//            }
+//     }
+    
+// }
+}
+[data-dpr="2"] .ui-itemlist-content .ui-itemlist-list li a {
+  font-size: 24px;
+  color: #353535;
+}
+[data-dpr="3"] .ui-itemlist-content .ui-itemlist-list li a {
+  font-size: 36px;
+  color: #353535;
+}
+
+[data-dpr="2"] .ui-itemlist-content .ui-itemlist-aboutus li a{
+  font-size: 24px;
+  color: #353535;
+}
+[data-dpr="3"] .ui-itemlist-content .ui-itemlist-aboutus li a{
+  font-size: 36px;
+  color: #353535;
+}
+
+[data-dpr="2"] .ui-itemlist-content .ui-itemlist-list li a.ui-tu span:nth-of-type(2) img {
+  width: .16rem;
+  height: .28rem;
+}
+[data-dpr="3"] .ui-itemlist-content .ui-itemlist-list li a.ui-tu span:nth-of-type(2) img {
+  width: .24rem;
+  height: .426667rem;
+}

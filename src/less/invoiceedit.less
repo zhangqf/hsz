@@ -1,0 +1,227 @@
+html,body{
+    height: 100%;
+    min-height: 100%;
+    background: #f6f6f6;
+}
+.ui-invoiceedit-header{
+    width: 10rem;
+    height: 1.12rem;
+     background: -webkit-linear-gradient(#fc4c57, #f73c62); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#fc4c57, #f73c62); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#fc4c57, #f73c62); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#fc4c57, #f73c62); /* 标准的语法 */
+    // background: #fc4c56;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    line-height: 1.12rem;
+    position: relative;
+        a{
+            width: .333333rem;
+            height: 1.12rem;
+            position: absolute;
+            top:center;
+            left:.426667rem;
+            line-height: 1.12rem;
+            display: inline-block;
+            img{
+                width: .333333rem;
+                height: .56rem;
+                vertical-align: text-bottom;
+            }
+        }
+}
+[data-dpr="2"] .ui-invoiceedit-header{
+    font-size: 36px;
+}
+[data-dpr="3"] .ui-invoiceedit-header{
+    font-size: 54px;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../common/iconfont/iconfont.eot');
+  src: url('../common/iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../common/iconfont/iconfont.woff') format('woff'),
+  url('../common/iconfont/iconfont.ttf') format('truetype'),
+  url('../common/iconfont/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-style:normal;color: #1f1f1f;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ui-invoiceedit-content{
+    width: 9.36rem;
+    padding-left: .32rem;
+    padding-right: .32rem;
+    padding-top: .4rem;
+    margin:auto;
+    font-size: 0;
+    overflow: hidden;
+    span.ui-notice,p.ui-notice-content{
+        font-size: 15px;
+        display: inline-block;
+        vertical-align: top;
+        color: #fa455c;
+        [data-dpr="2"] & {
+            font-size: 30px;
+        }
+        [data-dpr="3"] & {
+            font-size: 45px;
+        }
+    }
+    p.ui-notice-content{
+        width: 8.533333rem;
+        float:right;
+    }
+}
+
+ul.ui-invoicedetail-list{
+    margin-top: .426667rem;
+    width: 9.36rem;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -ms-border-radius:10px;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    -webkit-border-radius:10px;
+    [data-dpr="2"] & {
+        border-radius: 20px;
+    -ms-border-radius:20px;
+    -moz-border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-border-radius:20px;
+    }
+    [data-dpr="3"] & {
+        border-radius: 30px;
+    -ms-border-radius:30px;
+    -moz-border-radius:30px;
+    -o-border-radius:30px;
+    -webkit-border-radius:30px;
+    }
+    li{
+        width: 8.853333rem;
+        height: 1.386667rem;
+        line-height: 1.386667rem;
+        margin-left: auto;
+        margin-right: auto;
+         color: #353535;
+        border-bottom: .026667rem solid #f1f1f1;
+        font-size: 14px;
+        [data-dpr="2"] & {
+            font-size: 28px;
+        }
+        [data-dpr="3"] & {
+            font-size: 42px;
+        }
+        &>span{
+            font-size: 12px;
+            color: #919191;
+            float: right;
+            // text-indent: .066667rem;
+            [data-dpr="2"] & {
+                font-size: 26px;
+            }
+            [data-dpr="3"] & {
+                font-size: 40px;
+            }
+            &>input[type="radio"]{
+                width: .4rem;
+                height: .4rem;
+                vertical-align: text-bottom; 
+            }
+            &>input[type="text"]{
+                border:none;
+                width: 100%;
+                display: inline-block;
+                text-align: right;
+                 color: #919191;
+                display: inline-block;
+            }
+        }
+        &>span.ui-invoice-money{
+            text-align: right;
+            color: #353535;
+              [data-dpr="2"] & {
+                font-size: 26px;
+            }
+            [data-dpr="3"] & {
+                font-size: 40px;
+            }
+            &>span{
+                color: #fa455c;
+            }
+        }
+        &.ui-upload{
+            height: auto;
+           padding-bottom: .266667rem;
+            display: block;
+            &>img{
+                width: 2.133333rem;
+                height: 2.133333rem;
+                display: block;
+            }
+            &>img + span{
+                float: none;
+                display: block;
+                line-height: .986667rem;
+            }
+        }
+    }
+}
+
+
+
+
+
+.ui-invoice-btn{
+    width: 10rem;
+    height: 1.68rem;
+    background: #fff;
+    margin-top: .88rem;
+    line-height: 1.68rem;
+    text-align: center;
+    // position: fixed;
+    // bottom: 0;
+    // left: 0;
+}
+button[type="submit"]{
+    display: inline-block;
+    width: 8.666667rem;
+    height: 1.066667rem;
+    vertical-align: middle;
+    color: #fff;
+    text-align: center;
+    line-height: 1.066667rem;
+    background: #ff5452;
+    border:none;
+    font-size: 14px;
+    border-radius: 30px;
+    -ms-border-radius:30px;
+    -moz-border-radius:30px;
+    -o-border-radius:30px;
+    -webkit-border-radius:30px;
+    [data-dpr="2"] & {
+        border-radius: 60px;
+    -ms-border-radius:60px;
+    -moz-border-radius:60px;
+    -o-border-radius:60px;
+    -webkit-border-radius:60px;
+     font-size: 28px;
+    }
+    [data-dpr="3"] & {
+        border-radius: 90px;
+    -ms-border-radius:90px;
+    -moz-border-radius:90px;
+    -o-border-radius:90px;
+    -webkit-border-radius:90px;
+     font-size: 42px;
+    }
+   
+}

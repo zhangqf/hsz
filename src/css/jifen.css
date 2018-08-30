@@ -1,0 +1,246 @@
+html {
+  height: 100%;
+  background: #f6f6f6;
+}
+.ui-personal-header {
+  width: 10rem;
+  height: 6.12rem;
+  background: #fc4c56;
+  z-index: 10;
+  margin-bottom: .106667rem;
+  position: relative;
+}
+.ui-personal-header h4 {
+  font-size: 18px;
+  color: #fff;
+  height: 1.173333rem;
+  width: 10rem;
+  text-align: center;
+  line-height: 1.173333rem;
+  position: relative;
+}
+.ui-personal-header h4 a {
+  width: .333333rem;
+  height: .56rem;
+  position: absolute;
+  top: .133333rem;
+  left: .426667rem;
+  line-height: 1.173333rem;
+  display: inline-block;
+}
+.ui-personal-header h4 a img {
+  width: .333333rem;
+  height: .56rem;
+}
+.ui-personal-header p.ui-personal-welcome {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  margin-top: .8rem;
+}
+.ui-personal-header .ui-personal-img {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  width: 2.50rem;
+  height: 2.50rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 2.866667rem;
+  z-index: 8;
+  border: 0.2rem solid #fb627c;
+}
+.ui-personal-header .ui-personal-img .ui-personal-blur {
+  box-sizing: border-box;
+  width: 2.13rem;
+  height: 2.13rem;
+  border: 0.2rem solid #ffa7b3;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 8;
+}
+.ui-personal-header .ui-personal-img .ui-personal-blur img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 11;
+}
+.ui-personal-header .ui-personal-img .ui-personal-blur p.ui-personal-identification {
+  width: 1.73rem;
+  height: .56rem;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: -20px;
+  left: 0;
+  background: rgba(127, 127, 127, 0.6);
+}
+.ui-personal-header .ui-personal-img .ui-personal-blur p.ui-personal-identification.active {
+  color: #528852;
+}
+.ui-personal-header > a > img {
+  width: 1.8rem;
+  height: 1.8rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 3.2086667rem;
+  z-index: 10;
+}
+.ui-personal-header .ui-personal-bg {
+  width: 10rem;
+  box-sizing: border-box;
+  border: 1px solid #f0f0f0;
+  display: block;
+  background: #f0f0f0;
+  margin-bottom: .106667rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.3467999rem;
+  z-index: 9;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show {
+  margin-top: -0.853333rem;
+  left: .426667rem;
+  width: 9.2rem;
+  height: 1.706667rem;
+  border-radius: .106667rem;
+  box-shadow: 0 .133333rem .133333rem #eaebee;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+  text-align: center;
+  background: #fff url("../images/heng_03.png") no-repeat center 0.666667rem;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-left,
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-right {
+  width: 2.506667rem;
+  height: 1.706667rem;
+  display: inline-block;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-left p.ui-num,
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-right p.ui-num {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: .826667rem;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-left p.ui-personal-desc,
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-right p.ui-personal-desc {
+  font-size: 15px;
+  margin-top: .213333rem;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-right {
+  margin-left: 1.6rem;
+}
+[data-dpr="2"] .ui-personal-header .ui-personal-img .ui-personal-blur p.ui-personal-identification {
+  top: -40px;
+}
+[data-dpr="3"] .ui-personal-header .ui-personal-img .ui-personal-blur p.ui-personal-identification {
+  top: -60px;
+}
+[data-dpr="3"] .ui-personal-header .ui-personal-show {
+  background: #fff url("../images/heng_22.png") no-repeat center 0.666667rem;
+}
+[data-dpr="2"] .ui-personal-header h4 {
+  font-size: 36px;
+}
+[data-dpr="3"] .ui-personal-header h4 {
+  font-size: 54px;
+}
+[data-dpr="2"] .ui-personal-header p.ui-personal-welcome {
+  font-size: 40px;
+}
+[data-dpr="3"] .ui-personal-header p.ui-personal-welcome {
+  font-size: 60px;
+}
+[data-dpr="2"] .ui-personal-header .ui-personal-show .ui-personal-left p.ui-num,
+[data-dpr="2"] .ui-personal-header .ui-personal-show .ui-personal-right p.ui-num {
+  font-size: 40px;
+}
+[data-dpr="2"] .ui-personal-header .ui-personal-show .ui-personal-left p.ui-personal-desc,
+[data-dpr="2"] .ui-personal-header .ui-personal-show .ui-personal-right p.ui-personal-desc {
+  font-size: 30px;
+}
+[data-dpr="3"] .ui-personal-header .ui-personal-show .ui-personal-left p.ui-num,
+[data-dpr="3"] .ui-personal-header .ui-personal-show .ui-personal-right p.ui-num {
+  font-size: 60px;
+}
+[data-dpr="3"] .ui-personal-header .ui-personal-show .ui-personal-left p.ui-personal-desc,
+[data-dpr="3"] .ui-personal-header .ui-personal-show .ui-personal-right p.ui-personal-desc {
+  font-size: 45px;
+}
+.ui-content {
+  width: 9.44rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  padding-left: .28rem;
+  padding-right: .28rem;
+  padding-top: 1.2rem;
+}
+.ui-content h3 {
+  font-size: 16px;
+  height: 1.04rem;
+  line-height: 1.04rem;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+  border-bottom: .013333rem solid #ebebeb;
+}
+[data-dpr="2"] .ui-content h3 {
+  font-size: 32px;
+}
+[data-dpr="3"] .ui-content h3 {
+  font-size: 48px;
+}
+.ui-content .ui-content-list li {
+  height: 1.786667rem;
+  line-height: 1.786667rem;
+  font-size: 0;
+  border-bottom: .013333rem solid #ebebeb;
+}
+.ui-content .ui-content-list li .ui-list-left {
+  display: inline-block;
+}
+.ui-content .ui-content-list li .ui-list-left > p {
+  line-height: .773333rem;
+  margin-top: .16rem;
+  font-size: 15px;
+  color: #2c2c2c;
+}
+[data-dpr="2"] .ui-content .ui-content-list li .ui-list-left > p {
+  font-size: 30px;
+}
+[data-dpr="3"] .ui-content .ui-content-list li .ui-list-left > p {
+  font-size: 45px;
+}
+.ui-content .ui-content-list li .ui-list-left > span {
+  line-height: .6rem;
+  display: block;
+  color: #696969;
+  font-size: 12px;
+}
+[data-dpr="2"] .ui-content .ui-content-list li .ui-list-left > span {
+  font-size: 26px;
+}
+[data-dpr="3"] .ui-content .ui-content-list li .ui-list-left > span {
+  font-size: 38px;
+}
+.ui-content .ui-content-list li .ui-list-right {
+  float: right;
+  color: #fe3d4e;
+  font-size: 24px;
+}
+[data-dpr="2"] .ui-content .ui-content-list li .ui-list-right {
+  font-size: 46px;
+}
+[data-dpr="3"] .ui-content .ui-content-list li .ui-list-right {
+  font-size: 72px;
+}

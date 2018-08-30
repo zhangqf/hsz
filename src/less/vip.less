@@ -1,0 +1,125 @@
+html,body{
+    height: 100%;
+    background: #f6f6f6;
+}
+.ui-claimdetial-header{
+    width: 10rem;
+    height: 1.12rem;
+    background: #fc4c56;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    line-height: 1.12rem;
+    position: relative;
+  
+        a{
+           
+            position: absolute;
+            top:center;
+            left:.426667rem;
+            line-height: 1.12rem;
+            display: inline-block;
+           
+        }
+        // .headerleft{
+        //      width: .333333rem;
+        //     height: 1.12rem;
+        //     float: left;
+        //     margin-left:.426667rem;
+             img{
+                width: .333333rem;
+                height: .56rem;
+                vertical-align: text-bottom;
+            // }
+        }
+        .headerright{
+            width: .533333rem;
+             height: 1.12rem;
+            float: right;
+            margin-right:.426667rem;
+            img{
+                width:.56rem;
+                height: .626667rem;
+                vertical-align: middle;
+            }
+        }
+}
+[data-dpr="2"] .ui-claimdetial-header{
+    font-size: 36px;
+}
+[data-dpr="3"] .ui-claimdetial-header{
+    font-size: 54px;
+}
+
+
+.ui-vip-container{
+   width: 10rem;
+    .swiper-container{
+    margin-top: .32rem;
+    height: 4.666667rem;
+    img{
+        width: 10rem;
+        height: 4.666667rem;
+    }
+    }
+    .ui-vip-nav{
+        height: 1.913334rem;
+        width: 9.386667rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: .306667rem;
+        padding-right: .306667rem;
+        font-size: 0;
+        background: #fff;
+        border-radius: 0 0 5px 5px;
+        -webkit-border-radius:0 0 5px 5px;
+        -ms-border-radius:0 0 5px 5px;
+        -o-border-radius:0 0 5px 5px;
+        -moz-borer-r
+        &>a{
+            width: 2.346667rem;
+            height: 1.913334rem;
+            display: inline-block;
+            text-align: center;
+            // position: relative;
+            font-size: 12px;
+            color: #3a3a3a;
+            [data-dpr="2"] & {
+                font-size: 24px;
+            }
+            [data-dpr="3"] & {
+                font-size: 36px;
+            }
+            &.active{
+                color: #f55f60;
+            }
+            &>img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: .266667rem;
+                margin-bottom: .24rem;
+               &:nth-of-type(1){
+                    width: .626667rem;
+               }
+                &:nth-of-type(2){
+                   width: .64rem;
+               }
+                &:nth-of-type(3){
+                   width: .693333rem
+               }
+                &:nth-of-type(4){
+                   width: .693333rem;
+               }
+            }
+            &>span{
+                display: block;
+            }
+        }
+    }
+    .ui-vip-health{
+        h4{
+            height: 1.04rem;
+        }
+    }
+}

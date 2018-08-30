@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>identify</title>
+    <link rel="stylesheet" href="./css/identify.css">
+    <script src="./common/flexible_css.debug.js"></script>
+    <script src="./common/flexible.debug.js"></script>
+</head>
+
+<body>
+    <div class="ui-recordofdonation-header">
+        <a href="">
+            <img src="./images/back_arrow.png " alt=" ">
+        </a> 实名认证
+    </div>
+    <div class="ui-identify-container">
+        <h5>上传您的身份证</h5>
+        <ul class="ui-idnetify-list">
+            <li>
+                <h6>身份证正面</h6>
+                <div class="ui-identify-img">
+                    <img src="./images/identify1_03.jpg" alt="" class="img0">
+
+                </div>
+                <input type="file" id="upload0" style="display: none" onchange="fileImport();">
+            </li>
+            <li>
+                <h6>身份证背面</h6>
+                <div class="ui-identify-img">
+                    <img src="./images/identify1_07.jpg" alt="" class="img1">
+                </div>
+                <input type="file" id="upload1" style="display: none" onchange="fileImport();">
+            </li>
+            <li>
+                <h6>手持身份证正面</h6>
+                <div class="ui-identify-img">
+                    <img src="./images/identify2_09.jpg" alt="" class="img2">
+                </div>
+                <input type="file" id="upload2" style="display: none" onchange="fileImport();">
+            </li>
+        </ul>
+    </div>
+    <div class="ui-certification-save">提交</div>
+    <script src="./common/jquery-1.11.0.js"></script>
+    <script type="text/javascript">
+        var index;
+        $(".ui-idnetify-list li .ui-identify-img img").click(function() {
+            // console.log($(this).parent().parent().index());
+            index = $(this).parent().parent().index();
+            // console.log('.upload' + index)
+            $('#upload' + index).click();
+        })
+
+        function fileImport() {
+            //获取读取我文件的File对象
+            var selectedFile = document.getElementById('upload' + index).files[0];
+            var name = selectedFile.name; //读取选中文件的文件名
+            var size = selectedFile.size; //读取选中文件的大小
+            var src = window.URL.createObjectURL(selectedFile)
+            console.log(src)
+            var reader = new FileReader(); //这是核心,读取操作就是由它完成.
+            var urll = reader.readAsDataURL(selectedFile, "GB2312"); //读取文件的内容,也可以读取文件的URL
+            reader.onload = function() {
+                //当读取完成后回调这个函数,然后此时文件的内容存储到了result中,直接操作即可
+                // console.log(this.result)
+                $(".img" + index).attr('src', src)
+            }
+            localStorage.setItem("src1", src);
+            console.log(localStorage.getItem("src1"))
+        }
+    </script>
+
+</body>
+
+</html>

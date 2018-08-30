@@ -1,0 +1,49 @@
+ul.ui-setting-name {
+  width: 10rem;
+  background: #fff;
+  margin-top: .373333rem;
+}
+ul.ui-setting-name li {
+  border-bottom: .026667rem solid #f1f1f1;
+}
+ul.ui-setting-name li > a {
+  width: 9.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: .4rem;
+  padding-right: .4rem;
+  height: 1.68rem;
+  display: block;
+  line-height: 1.68rem;
+  color: #353535;
+  font-size: 15px;
+  background: url('../images/left_03.png') no-repeat 9.413333rem center;
+  background-size: .16rem .293333rem;
+}
+ul.ui-setting-name li > a.ui-granted {
+  background-image: none;
+}
+[data-dpr="2"] ul.ui-setting-name li > a {
+  font-size: 30px;
+}
+[data-dpr="3"] ul.ui-setting-name li > a {
+  font-size: 45px;
+}
+ul.ui-setting-name li > a > span {
+  color: #919191;
+  font-size: 14px;
+  float: right;
+  margin-right: .666667rem;
+}
+ul.ui-setting-name li > a > span.ui-unauthorized {
+  color: #ff8181;
+}
+ul.ui-setting-name li > a > span.ui-granted {
+  color: #a5cc92;
+}
+[data-dpr='2'] ul.ui-setting-name li > a > span {
+  font-size: 28px;
+}
+[data-dpr="3"] ul.ui-setting-name li > a > span {
+  font-size: 42px;
+}

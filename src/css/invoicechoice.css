@@ -1,0 +1,177 @@
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  background: #f6f6f6;
+}
+.ui-invoicechoice-header {
+  width: 10rem;
+  height: 1.12rem;
+  background: -webkit-linear-gradient(#fc4c57, #f73c62);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#fc4c57, #f73c62);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#fc4c57, #f73c62);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(#fc4c57, #f73c62);
+  /* 标准的语法 */
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 1.12rem;
+  position: relative;
+}
+.ui-invoicechoice-header a.headerleft {
+  width: .333333rem;
+  height: 1.12rem;
+  position: absolute;
+  top: center;
+  left: .426667rem;
+  line-height: 1.12rem;
+  display: inline-block;
+}
+.ui-invoicechoice-header a.headerleft img {
+  width: .333333rem;
+  height: .56rem;
+  vertical-align: text-bottom;
+}
+.ui-invoicechoice-header a.headerright {
+  position: absolute;
+  top: center;
+  right: .426667rem;
+  font-size: 16px;
+  color: #fff;
+  font-weight: normal;
+}
+[data-dpr="2"] .ui-invoicechoice-header a.headerright {
+  font-size: 32px;
+}
+[data-dpr="3"] .ui-invoicechoice-header a.headerright {
+  font-size: 48px;
+}
+[data-dpr="2"] .ui-invoicechoice-header {
+  font-size: 36px;
+}
+[data-dpr="3"] .ui-invoicechoice-header {
+  font-size: 54px;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../common/iconfont/iconfont.eot');
+  src: url('../common/iconfont/iconfont.eot?#iefix') format('embedded-opentype'), url('../common/iconfont/iconfont.woff') format('woff'), url('../common/iconfont/iconfont.ttf') format('truetype'), url('../common/iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  color: #1f1f1f;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+ul.ui-invoicedetail-list {
+  margin-top: .426667rem;
+  width: 9.36rem;
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  -ms-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+[data-dpr="2"] ul.ui-invoicedetail-list {
+  border-radius: 20px;
+  -ms-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+[data-dpr="3"] ul.ui-invoicedetail-list {
+  border-radius: 30px;
+  -ms-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-border-radius: 30px;
+}
+ul.ui-invoicedetail-list li {
+  width: 8.853333rem;
+  height: 1.386667rem;
+  line-height: 1.386667rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: #353535;
+  border-bottom: .026667rem solid #f1f1f1;
+  font-size: 14px;
+}
+[data-dpr="2"] ul.ui-invoicedetail-list li {
+  font-size: 28px;
+}
+[data-dpr="3"] ul.ui-invoicedetail-list li {
+  font-size: 42px;
+}
+ul.ui-invoicedetail-list li > span {
+  font-size: 12px;
+  color: #919191;
+  float: right;
+}
+[data-dpr="2"] ul.ui-invoicedetail-list li > span {
+  font-size: 26px;
+}
+[data-dpr="3"] ul.ui-invoicedetail-list li > span {
+  font-size: 40px;
+}
+ul.ui-invoicedetail-list li > span.ui-invoice-money {
+  text-align: right;
+  color: #353535;
+}
+[data-dpr="2"] ul.ui-invoicedetail-list li > span.ui-invoice-money {
+  font-size: 26px;
+}
+[data-dpr="3"] ul.ui-invoicedetail-list li > span.ui-invoice-money {
+  font-size: 40px;
+}
+ul.ui-invoicedetail-list li > span.ui-invoice-money > span {
+  color: #fa455c;
+}
+.ui-invoice-btn {
+  width: 10rem;
+  height: 1.68rem;
+  background: #fff;
+  margin-top: .88rem;
+  line-height: 1.68rem;
+  text-align: center;
+}
+button[type="submit"] {
+  display: inline-block;
+  width: 8.666667rem;
+  height: 1.066667rem;
+  vertical-align: middle;
+  color: #fff;
+  text-align: center;
+  line-height: 1.066667rem;
+  background: #ff5452;
+  border: none;
+  font-size: 14px;
+  border-radius: 30px;
+  -ms-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-border-radius: 30px;
+}
+[data-dpr="2"] button[type="submit"] {
+  border-radius: 60px;
+  -ms-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -o-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  font-size: 28px;
+}
+[data-dpr="3"] button[type="submit"] {
+  border-radius: 90px;
+  -ms-border-radius: 90px;
+  -moz-border-radius: 90px;
+  -o-border-radius: 90px;
+  -webkit-border-radius: 90px;
+  font-size: 42px;
+}

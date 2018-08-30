@@ -1,0 +1,171 @@
+.ui-changephone2-container {
+  margin-top: .373333rem;
+}
+p.ui-resetpassword-title {
+  width: 9.146667rem;
+  line-height: .933333rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: #888888;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: .373333rem;
+}
+p.ui-resetpassword-title span {
+  color: #fa455c;
+}
+[data-dpr="2"] p.ui-resetpassword-title {
+  font-size: 28px;
+}
+[data-dpr="3"] p.ui-resetpassword-title {
+  font-size: 42px;
+}
+textarea {
+  width: 8.453333rem;
+  padding: .373333rem .346667rem;
+  height: 2.72rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: .586667rem;
+  display: block;
+  color: #d4d4d4;
+  border: .013333rem solid #cccccc;
+  font-size: 14px;
+  border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+[data-dpr="2"] textarea {
+  font-size: 28px;
+  border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+[data-dpr="3"] textarea {
+  font-size: 52px;
+  border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+}
+textarea::-moz-placeholder {
+  color: #d4d4d4;
+}
+textarea::placeholder {
+  color: #d4d4d4;
+}
+textarea::-webkit-input-placeholder {
+  color: #d4d4d4;
+}
+textarea:-ms-input-placeholder {
+  color: #d4d4d4;
+}
+a.ui-changephone-btn {
+  margin: auto;
+  margin-top: .666667rem;
+  display: block;
+  color: #fff;
+  background: #fa455c;
+  width: 8.666667rem;
+  height: .933333rem;
+  line-height: .933333rem;
+  text-align: center;
+  font-size: 16px;
+}
+[data-dpr="2"] a.ui-changephone-btn {
+  font-size: 32px;
+}
+[data-dpr="3"] a.ui-changephone-btn {
+  font-size: 48px;
+}
+.ui-lastleavemessage {
+  width: 9.226667rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .666667rem;
+}
+.ui-lastleavemessage p.ui-lastleavemessage-title {
+  color: #888888;
+  font-size: 14px;
+  margin-bottom: .586667rem;
+}
+[data-dpr="2"] .ui-lastleavemessage p.ui-lastleavemessage-title {
+  font-size: 28px;
+}
+[data-dpr="3"] .ui-lastleavemessage p.ui-lastleavemessage-title {
+  font-size: 52px;
+}
+.ui-lastleavemessage ul.ui-lastleavemessage-list li {
+  width: 8.933333rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+  padding-bottom: .586667rem;
+}
+.ui-lastleavemessage ul.ui-lastleavemessage-list li > .ui-img {
+  width: 1.92rem;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+.ui-lastleavemessage ul.ui-lastleavemessage-list li > .ui-img > img {
+  width: 1.333333rem;
+  height: 1.333333rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+}
+.ui-lastleavemessage ul.ui-lastleavemessage-list li > .ui-detail {
+  display: inline-block;
+  width: 6.746667rem;
+  vertical-align: top;
+}
+.ui-lastleavemessage ul.ui-lastleavemessage-list li > .ui-detail p.ui-name {
+  font-size: 15px;
+  line-height: .826667rem;
+  color: #838383;
+}
+[data-dpr='2'] .ui-lastleavemessage ul.ui-lastleavemessage-list li > .ui-detail p.ui-name {
+  font-size: 30px;
+}
+[data-dpr="3"] .ui-lastleavemessage ul.ui-lastleavemessage-list li > .ui-detail p.ui-name {
+  font-size: 45px;
+}
+.ui-lastleavemessage ul.ui-lastleavemessage-list li > .ui-detail p.ui-content {
+  line-height: .72rem;
+  color: #454444;
+  font-size: 16px;
+}
+[data-dpr="2"] .ui-lastleavemessage ul.ui-lastleavemessage-list li > .ui-detail p.ui-content {
+  font-size: 32px;
+}
+[data-dpr="3"] .ui-lastleavemessage ul.ui-lastleavemessage-list li > .ui-detail p.ui-content {
+  font-size: 48px;
+}
+.ui-lastleavemessage ul.ui-lastleavemessage-list li > .ui-detail p.ui-answer > span {
+  font-size: 14px;
+}
+[data-dpr="2"] .ui-lastleavemessage ul.ui-lastleavemessage-list li > .ui-detail p.ui-answer > span {
+  font-size: 28px;
+}
+[data-dpr="3"] .ui-lastleavemessage ul.ui-lastleavemessage-list li > .ui-detail p.ui-answer > span {
+  font-size: 42px;
+}
+.ui-lastleavemessage ul.ui-lastleavemessage-list li > .ui-detail p.ui-answer > span.ui-name {
+  height: .826667rem;
+  color: #fa455c;
+  display: block;
+}
+.ui-lastleavemessage ul.ui-lastleavemessage-list li > .ui-detail p.ui-answer > span.ui-detail {
+  display: block;
+  color: #454444;
+  line-height: .613333rem;
+  padding-bottom: .586667rem;
+}

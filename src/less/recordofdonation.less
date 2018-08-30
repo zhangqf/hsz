@@ -1,0 +1,261 @@
+html,body{
+    height: 100%;
+    min-height: 100%;
+    background: #f0f0f0;
+}
+.ui-recordofdonation-header{
+    width: 10rem;
+    height: 1.12rem;
+    background: #fc4c56;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    line-height: 1.12rem;
+    position: relative;
+  
+        a{
+            width: .333333rem;
+            height: 1.12rem;
+            position: absolute;
+            top:center;
+            left:.426667rem;
+            line-height: 1.12rem;
+            display: inline-block;
+            img{
+                width: .333333rem;
+                height: .56rem;
+                vertical-align: text-bottom;
+            }
+        }
+}
+[data-dpr="2"] .ui-recordofdonation-header{
+    font-size: 36px;
+}
+[data-dpr="3"] .ui-recordofdonation-header{
+    font-size: 54px;
+}
+.ui-recordofdonation-history{
+    width: 9.146667rem;
+    height: 1.866667rem;
+    padding:0 .426667rem;
+    background: #fff url("../images/heng_03.png") no-repeat center center;
+    .ui-recordofdonation-left{
+        width: 4.573333rem;
+        float: left;
+    }
+    .ui-recordofdonation-right{
+         width: 4.573333rem;
+        float: left;
+    }
+    p.ui-num{
+        font-size: 20px;
+        color: #fa455c;
+        margin-top:.4rem;
+        margin-left: 1.866667rem;
+        // width: 1.466667rem;
+    }
+    p.ui-personal-desc{
+        //  width: 1.466667rem;
+        font-size: 10px;
+        color: #353535;
+         margin-left: 1.866667rem;
+    }
+}
+.ui-recordofdonation-container{
+    background:#f0f0f0;
+    width: 10rem;
+    // height: 100%;
+    background:#f0f0f0;
+    padding-top:.346667rem;
+    padding-bottom: .266667rem;
+    li{
+        width: 9.146667rem;
+        height: auto;
+        border-radius: 5px;
+        overflow: hidden;
+        background:#fff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: .266667rem;
+        .ui-list-left{
+            width: 3.04rem;
+            height: 2.826667rem;
+            float: left;
+            // background: #fc4c56;
+            line-height: 2.826667rem;
+            text-align: center;
+            img{
+                width: 2.4rem;
+                height: 2.4rem;
+                border-radius: 5px;
+                vertical-align: middle;
+            }
+        }
+        .ui-list-right{
+            width: 5.786667rem;
+            height: 2.826667rem;
+            float:left;
+            h6{
+                margin-top:.133333rem;
+                height: .746667rem;
+                line-height: .746667rem;
+                font-size: 15px;
+                font-weight: bold;
+                color: #3a3a3a;             
+            }
+            p.ui-p{
+                width: 5.786667rem;
+                height: .533333rem;
+                line-height: .533333rem;
+                font-size: 10px;
+                color: #888888;
+                span.ui-span{
+                    color: #f55f60;
+                }
+                // overflow: hidden;
+                // text-overflow: ellipsis;
+                // display: -webkit-box;
+                // -webkit-box-orient: vertical;
+                // -webkit-line-clamp: 2;
+            }
+            span.ui-money{
+                // width: 1.866667rem;
+                // text-indent: .266667rem;
+                padding:.066667rem .226667rem;
+                // height:.426667rem;
+                margin-top:.193333rem;
+                background: #ff5452;
+                // background:#ff5452 url('../images/xiala.png') no-repeat 1.423333rem center;
+                // background-size: .28rem .16rem;
+                font-size: 10px;
+                display: inline-block;
+                // text-align: center;
+                line-height: .426667rem;
+                border-radius: 3px;
+                border:1px solid #ff5452;
+                color:#fff;
+                &.backgroundactive{
+                    color: #ff5452;
+                    background:#fff;
+                }
+                span.ui-spanxiala{
+                    margin-left: .106667rem;
+                    width: .28rem;
+                    height:  .16rem;
+                    display: inline-block;
+                    background: url('../images/xiala.png') no-repeat center center;
+                    &.activexiala{
+                    background: url("../images/xialaactive.png") no-repeat center center;
+                    }
+                }
+                // line-height: .693333rem;
+                // em{
+                //     color: #fc4c56;
+                //     font-size: 12px;
+                // }
+            }
+        }
+        ul.ui-recordofdonationlist{
+            clear: both;
+             width: 8.506667rem;
+             margin: auto;
+             display: none;
+            li{
+                width: 8.506667rem;
+                height: 2rem;
+                border-top: .013333rem solid #f1f1f1;
+                border-radius: 0;
+                margin-bottom: 0;
+                p{
+                   
+                    color: #888888;
+                    height: .56rem;
+                    text-indent: .08rem;
+                    line-height: .56rem;
+                }
+                p.ui-alreadyDonated{
+                     margin-top:.16rem;
+                    em{
+                        font-size: 12px;
+                        color: #f55f60;
+                    }
+                }
+            }
+        }
+    }
+}
+[data-dpr="2"] .ui-recordofdonation-container li{
+    border-radius: 10px;
+}
+[data-dpr="3"] .ui-recordofdonation-container li{
+    border-radius: 15px;
+}
+[data-dpr="2"] .ui-recordofdonation-container li .ui-list-left img{
+    border-radius: 10px;
+}
+[data-dpr="3"] .ui-recordofdonation-container li .ui-list-left img{
+    border-radius: 15px;
+}
+[data-dpr="2"] .ui-recordofdonation-history{
+  background: #fff url("../images/heng_22.png") no-repeat center center;
+}
+[data-dpr="3"] .ui-recordofdonation-history{
+  background: #fff url("../images/heng_120.png") no-repeat center center;
+}
+[data-dpr="2"] .ui-recordofdonation-history p.ui-num {
+    font-size: 40px;
+}
+
+[data-dpr="3"] .ui-recordofdonation-history p.ui-num {
+    font-size: 60px;
+}
+
+[data-dpr="2"] .ui-recordofdonation-history p.ui-personal-desc {
+    font-size: 20px;
+}
+
+[data-dpr="3"] .ui-recordofdonation-history p.ui-personal-desc {
+    font-size: 30px;
+}
+
+[data-dpr="2"] .ui-recordofdonation-container li .ui-list-right h6 {
+  font-size: 30px;
+}
+[data-dpr="3"] .ui-recordofdonation-container li .ui-list-right h6 {
+  font-size: 45px;
+}
+[data-dpr="2"] .ui-recordofdonation-container li .ui-list-right h6 span.ui-tip {
+  font-size: 22px;
+}
+[data-dpr="3"] .ui-recordofdonation-container li .ui-list-right h6 span.ui-tip {
+  font-size: 34px;
+}
+
+[data-dpr="2"] .ui-recordofdonation-container li .ui-list-right p.ui-p {
+  font-size: 20px;
+}
+[data-dpr="3"] .ui-recordofdonation-container li .ui-list-right p.ui-p {
+  font-size: 30px;
+}
+[data-dpr="2"] .ui-recordofdonation-container li .ui-list-right span.ui-money {
+  font-size: 20px;
+  border-radius: 6px;
+}
+[data-dpr="3"] .ui-recordofdonation-container li .ui-list-right span.ui-money  {
+  font-size: 30px;
+  border-radius: 9px;
+}
+[data-dpr="2"] .ui-recordofdonation-container li ul.ui-recordofdonationlist li p.ui-alreadyDonated em {
+  font-size: 24px;
+  color: #f55f60;
+}
+[data-dpr="3"] .ui-recordofdonation-container li ul.ui-recordofdonationlist li p.ui-alreadyDonated em {
+  font-size: 36px;
+  color: #f55f60;
+}
+[data-dpr="2"] .ui-recordofdonation-container li .ui-list-right span.ui-money em{
+  font-size: 24px;
+}
+[data-dpr="3"] .ui-recordofdonation-container li .ui-list-right span.ui-money  em{
+  font-size: 36px;
+}

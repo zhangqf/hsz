@@ -1,0 +1,447 @@
+html,
+body {
+  height: 100%;
+  background: #f6f6f6 !important;
+}
+.ui-personal-header {
+  width: 10rem;
+  height: 6.12rem;
+  background: #fc4c56;
+  z-index: 10;
+  margin-bottom: .106667rem;
+  position: relative;
+}
+.ui-personal-header h4 {
+  font-size: 18px;
+  color: #fff;
+  height: 1.173333rem;
+  width: 10rem;
+  text-align: center;
+  line-height: 1.173333rem;
+  position: relative;
+}
+.ui-personal-header h4 a {
+  width: .333333rem;
+  height: .56rem;
+  position: absolute;
+  top: .133333rem;
+  left: .426667rem;
+  line-height: 1.173333rem;
+  display: inline-block;
+}
+.ui-personal-header h4 a img {
+  width: .333333rem;
+  height: .56rem;
+}
+.ui-personal-header .ui-personal-bg {
+  width: 10rem;
+  height: 1.60rem;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1.1rem;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show {
+  left: .426667rem;
+  font-size: 0;
+  width: 9.2rem;
+  height: 3.6rem;
+  border-radius: .213333rem;
+  box-shadow: 0 .133333rem .133333rem #eaebee;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff ;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-img {
+  width: 3.36rem;
+  height: 3.6rem;
+  line-height: 3.6rem;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-img img {
+  width: 1.866667rem;
+  height: 1.866667rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-img .ui-personal-identification {
+  position: absolute;
+  left: 2.14rem;
+  top: 1.933333rem;
+  width: .64rem;
+  height: .64rem;
+  border-radius: 100%;
+  background: url("../images/identify1.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-img .ui-personal-identification.active {
+  background: url("../images/identify.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-welcome1 {
+  width: 5.333333rem;
+  height: 3.6rem;
+  display: inline-block;
+  vertical-align: top;
+  background: url("../images/line@1x.png") no-repeat 2.066667rem 2.133333rem;
+}
+[data-dpr="2"] .ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-welcome1 {
+  background: url("../images/heng_22.png") no-repeat 1.866667rem 2.133333rem;
+}
+[data-dpr="3"] .ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-welcome1 {
+  background: url("../images/heng_22.png") no-repeat 1.866667rem 2.133333rem;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-welcome1 p.ui-personal-welcome {
+  height: .466667rem;
+  line-height: .466667rem;
+  font-size: 15px;
+  color: #535353;
+  font-weight: bold;
+  margin-top: .88rem;
+  margin-bottom: .533333rem;
+}
+[data-dpr="2"] .ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-welcome1 p.ui-personal-welcome {
+  font-size: 30px;
+}
+[data-dpr="3"] .ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-welcome1 p.ui-personal-welcome {
+  font-size: 45px;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-welcome1 p.ui-num {
+  height: .426667rem;
+  line-height: .426667rem;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #353535;
+}
+[data-dpr="2"] .ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-welcome1 p.ui-num {
+  font-size: 30px;
+}
+[data-dpr="3"] .ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-welcome1 p.ui-num {
+  font-size: 45px;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-welcome1 p.ui-personal-desc {
+  height: .613333rem;
+  line-height: .613333rem;
+  font-size: 10px;
+  color: #353535;
+}
+[data-dpr="2"] .ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-welcome1 p.ui-personal-desc {
+  font-size: 20px;
+}
+[data-dpr="3"] .ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-welcome1 p.ui-personal-desc {
+  font-size: 30px;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-welcome1 .ui-personal-left {
+  width: 1.866667rem;
+  display: inline-block;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-welcome1 .ui-personal-right {
+  width: 1.866667rem;
+  margin-left: .48rem;
+  display: inline-block;
+}
+[data-dpr="2"] .ui-personal-header h4 {
+  font-size: 36px;
+}
+[data-dpr="3"] .ui-personal-header h4 {
+  font-size: 54px;
+}
+.ui-personal-content {
+  width: 10rem;
+  margin-top: .666667rem;
+  padding-bottom: 2.346667rem;
+  background: #f6f6f6;
+}
+.ui-personal-content .ui-personal-dl {
+  padding-top: .4rem;
+  width: 9.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: .4rem;
+  background: #fff;
+  overflow: hidden;
+  font-size: 0;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+[data-dpr="2"] .ui-personal-content .ui-personal-dl {
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+[data-dpr="3"] .ui-personal-content .ui-personal-dl {
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+.ui-personal-content .ui-personal-dl > a:nth-of-type(1) dl dt img {
+  width: .88rem;
+}
+.ui-personal-content .ui-personal-dl > a:nth-of-type(2) dl dt img {
+  width: .853333rem;
+}
+.ui-personal-content .ui-personal-dl > a:nth-of-type(3) dl dt img {
+  width: .813333rem;
+}
+.ui-personal-content .ui-personal-dl > a:nth-of-type(4) dl dt img {
+  width: .946667rem;
+}
+.ui-personal-content .ui-personal-dl > a:nth-of-type(5) dl dt img {
+  width: .853333rem;
+}
+.ui-personal-content .ui-personal-dl > a:nth-of-type(6) dl dt img {
+  width: .76rem;
+}
+.ui-personal-content .ui-personal-dl > a:nth-of-type(7) dl dt img {
+  width: .84rem;
+}
+.ui-personal-content .ui-personal-dl > a:nth-of-type(8) dl dt img {
+  width: .96rem;
+}
+.ui-personal-content .ui-personal-dl > a:nth-of-type(9) dl dt img {
+  width: .813333rem;
+}
+.ui-personal-content .ui-personal-dl dl.ui-personal-list {
+  width: 2.613333rem;
+  height: 2.16rem;
+  text-align: center;
+  display: inline-block;
+  margin-left: .346667rem;
+}
+.ui-personal-content .ui-personal-dl dl.ui-personal-list dt {
+  height: 1.466667rem;
+  line-height: 1.466667rem;
+}
+.ui-personal-content .ui-personal-dl dl.ui-personal-list dt img {
+  width: .96rem;
+  vertical-align: middle;
+}
+.ui-personal-content .ui-personal-dl dl.ui-personal-list dd {
+  height: .693333rem;
+  line-height: .693333rem;
+  color: #353535;
+  font-size: 14px;
+}
+[data-dpr="2"] .ui-personal-content .ui-personal-dl dl.ui-personal-list dd {
+  font-size: 28px;
+}
+[data-dpr="3"] .ui-personal-content .ui-personal-dl dl.ui-personal-list dd {
+  font-size: 42px;
+}
+.ui-personal-content .ui-personal-dl dl.ui-personal-list.margintop20 {
+  margin-top: .266667rem;
+}
+.ui-personal-content .ui-personal-dl dl.ui-personal-list.margintop20 dt {
+  height: .986667rem;
+  line-height: .986667rem;
+}
+.ui-personal-content .ui-personal-dl dl.ui-personal-list.margintop20 dd {
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+.ui-personal-content .ui-personal-dl dl.ui-personal-list.second.marginbottom10 dt {
+  height: 1.053333rem;
+  line-height: 1.053333rem;
+  margin-bottom: .133333rem;
+}
+.ui-personal-content .ui-personal-dl dl.ui-personal-list.second dt {
+  height: 1.173333rem;
+  line-height: 1.173333rem;
+}
+.ui-personal-content .ui-personal-dl dl.ui-personal-list.second dt > img {
+  vertical-align: bottom;
+}
+.ui-personal-content .ui-personal-dl dl.ui-personal-list.second dd {
+  height: .986667rem;
+  line-height: .986667rem;
+}
+.ui-personal-content .ui-personal-dl dl.ui-personal-list.third dt {
+  height: 1.24rem;
+  line-height: 1.24rem;
+  margin-bottom: .2rem;
+}
+.ui-personal-content .ui-personal-dl dl.ui-personal-list.third dt img {
+  vertical-align: bottom;
+}
+.ui-personal-content .ui-personal-dl dl.ui-personal-list.third dd {
+  height: .746667rem;
+  line-height: .746667rem;
+}
+.ui-personal-content .ui-personal-dl dl.ui-personal-list.third.yiqijuan {
+  margin-left: 0;
+  width: 3.306667rem;
+}
+.ui-personal-content .ui-personal-dl dl.ui-personal-list.third.qiandao {
+  margin-left: 0;
+}
+.ui-personal-content .ui-personal-aboutus {
+  width: 9.2rem;
+  height: 3.226667rem;
+  background: #fff;
+  margin-top: .32rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: .106667rem;
+}
+.ui-personal-content .ui-personal-aboutus li {
+  width: 8.16rem;
+  height: 1.626667rem;
+  line-height: 1.626667rem;
+  border-bottom: .026667rem dashed #f1f1f1;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ui-personal-content .ui-personal-aboutus li:nth-of-type(1) a.ui-tu {
+  background: url('../images/personal02.png') no-repeat left center;
+  background-size: .64rem .64rem;
+}
+.ui-personal-content .ui-personal-aboutus li:nth-of-type(2) a.ui-tu {
+  background: url('../images/personal03.png') no-repeat left center;
+  background-size: .64rem .64rem;
+}
+.ui-personal-content .ui-personal-aboutus li a.ui-tu {
+  font-size: 12px;
+  color: #353535;
+  display: block;
+  height: 100%;
+}
+.ui-personal-content .ui-personal-aboutus li a.ui-tu span:nth-of-type(1) {
+  text-indent: .906667rem;
+  float: left;
+}
+.ui-personal-content .ui-personal-aboutus li a.ui-tu span:nth-of-type(2) {
+  margin-right: .133333rem;
+  float: right;
+}
+[data-dpr="2"] .ui-personal-content .ui-personal-list li a {
+  font-size: 24px;
+  color: #353535;
+}
+[data-dpr="3"] .ui-personal-content .ui-personal-list li a {
+  font-size: 36px;
+  color: #353535;
+}
+[data-dpr="2"] .ui-personal-content .ui-personal-aboutus li a {
+  font-size: 24px;
+  color: #353535;
+}
+[data-dpr="3"] .ui-personal-content .ui-personal-aboutus li a {
+  font-size: 36px;
+  color: #353535;
+}
+[data-dpr="2"] .ui-personal-content .ui-personal-list li a.ui-tu span:nth-of-type(2) img {
+  width: .16rem;
+  height: .28rem;
+}
+[data-dpr="3"] .ui-personal-content .ui-personal-list li a.ui-tu span:nth-of-type(2) img {
+  width: .24rem;
+  height: .426667rem;
+}
+.shade {
+  background: rgba(22, 22, 22, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  overflow: hidden;
+  z-index: 100;
+}
+.ui-condition-tips {
+  background: #fff url("../images/tipsbg.png") no-repeat center 1.1035rem;
+  background-size: 67% 55%;
+  width: 7.84rem;
+  height: 7.92rem;
+  border-radius: 8px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.ui-condition-tips h6 {
+  height: 1.6rem ;
+  line-height: 1.16rem;
+  font-size: 23px;
+  text-align: center;
+  color: #fff;
+  margin-top: -0.686667rem;
+  margin-bottom: .533333rem;
+  background: url("../images/titlebg.png") no-repeat top center;
+  background-size: 85% 100%;
+}
+.ui-condition-tips p {
+  width: 3.666667rem;
+  height: 3.666667rem;
+  text-align: center;
+  line-height: 3.666667rem;
+  color: #fff;
+  font-size: 41px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bord;
+  margin-bottom: .826667rem;
+  background: url("../images/cricle.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+[data-dpr="2"] .ui-condition-tips p {
+  font-size: 82px;
+}
+[data-dpr="3"] .ui-condition-tips p {
+  font-size: 122px;
+}
+.ui-condition-tips p span {
+  color: #ff5452;
+}
+.ui-condition-tips .ui-tips-btn {
+  height: 1.986667rem;
+  line-height: 1.486667rem;
+  color: #ff5f5c;
+  font-size: 24px;
+  margin: auto;
+  text-align: center;
+}
+[data-dpr="2"] .ui-condition-tips .ui-tips-btn {
+  font-size: 48px;
+}
+[data-dpr="3"] .ui-condition-tips .ui-tips-btn {
+  font-size: 72px;
+}
+[data-dpr='2'] .ui-condition-tips {
+  border-radius: 16px;
+}
+[data-dpr='3'] .ui-condition-tips {
+  border-radius: 24px;
+}
+[data-dpr='2'] .ui-condition-tips h6 {
+  font-size: 46px;
+}
+[data-dpr='3'] .ui-condition-tips h6 {
+  font-size: 70px;
+}
+.ui-jifenclose {
+  width: 7.866667rem;
+  height: 1.6rem;
+  background: url('../images/tipsline.png') no-repeat center top;
+  background-size: 1% 36%;
+  overflow: hidden;
+}
+.ui-jifenclose > a {
+  width: .986667rem;
+  height: .986667rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .56rem;
+  background: url('../images/off.png') no-repeat center center;
+  background-size: 100% 100%;
+}

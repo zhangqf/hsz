@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>changephone</title>
+    <script src="./common/flexible_css.debug.js " type="text/javascript "></script>
+    <link rel="stylesheet" href="./css/common.css" type=" text/css ">
+    <link rel="stylesheet" href="./css/changephone.css">
+
+    <script src="./common/flexible.debug.js " type="text/javascript "></script>
+</head>
+
+<body>
+    <div class="ui-itemlist-header ">
+        <h4>
+            <a href=" " class="headerleft">
+                <img src="./images/setback.png " alt=" ">
+            </a> 更换手机号
+        </h4>
+    </div>
+    <div class="ui-changephone-container">
+        <div class="ui-changephone-img">
+            <img src="./images/changephone.png" alt="">
+        </div>
+        <p>
+            请验证你的手机号以进行下一步操作
+        </p>
+        <p class="ui-phone-num">
+            185****1754
+        </p>
+    </div>
+    <a class="ui-changephone-btn" href="changephone1.html">
+    获取验证码
+</a>
+
+
+    <!-- <script src="./common/jquery-1.11.0.js"></script>
+        <script>
+            // 定时器
+            var i = 60;
+            var itemId = setInterval(function() {
+                    i--;
+                    if (!i <= 0) {
+                        $(".ui-phone-num").find("i").html(i)
+                    } else {
+                        clearInterval(itemId)
+                        $(".ui-phone-num").find("span").text("请重新获取验证码！")
+                    }
+                }, 1000)
+                //input 获取焦点
+            $(".ui-phone-num").find("input")
+                .on("focus", function() {
+                    $(".ui-phone-num").find("span").addClass("change")
+                })
+                .on("blur", function() {
+                    var len = $(this).val().length;
+                    if (len == 0) {
+                        $(".ui-phone-num").find("span").removeClass("change")
+                    } else {
+                        $(".ui-phone-num").find("span").addClass("change")
+                    }
+                })
+        </script>
+        <script>
+            // 定时器
+            var i = 60;
+            var itemId = setInterval(function() {
+                    i--;
+                    if (!i <= 0) {
+                        $(".ui-phone-num").find("i").html(i)
+                    } else {
+                        clearInterval(itemId)
+                        $(".ui-phone-num").find("span").text("请重新获取验证码！")
+                    }
+                }, 1000)
+                //input 获取焦点
+            $(".ui-phone-num.top").find("input")
+                .on("focus", function() {
+                    $(".ui-phone-num.top").find("span").addClass("change")
+                })
+                .on("blur", function() {
+                    var len = $(this).val().length;
+                    console.log(len)
+                    if (len == 0) {
+                        $(".ui-phone-num.top").find("span").removeClass("change")
+                    } else {
+                        $(".ui-phone-num.top").find("span").addClass("change")
+                    }
+                })
+
+            $(".ui-changephone-btn").on('click', function(event) {
+
+                $(".ui-changephone2-tips").show()
+            })
+            $(".ui-changephone2-tips .ui-tips-close").on("click", function() {
+                $(".ui-changephone2-tips").hide()
+            })
+        </script> -->
+</body>
+
+</html>

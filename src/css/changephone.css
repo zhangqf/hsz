@@ -1,0 +1,55 @@
+.ui-changephone-container {
+  margin-top: .373333rem;
+}
+.ui-changephone-img {
+  width: 10rem;
+  height: 5.333333rem;
+  line-height: 5.333333rem;
+  margin: auto;
+  margin-top: .186667rem;
+  text-align: center;
+}
+.ui-changephone-img img {
+  width: 2.32rem;
+  height: 3.92rem;
+  vertical-align: middle;
+}
+p {
+  height: .933333rem;
+  line-height: .933333rem;
+  color: #888888;
+  text-align: center;
+  font-size: 16px;
+}
+[data-dpr="2"] p {
+  font-size: 32px;
+}
+[data-dpr="3"] p {
+  font-size: 48px;
+}
+p.ui-phone-num {
+  background: #fff url('../images/phoner.png') no-repeat 6.826667rem center;
+  background-size: .493333rem .493333rem;
+  height: .933333rem;
+  line-height: .933333rem;
+  margin-top: .133333rem;
+  color: #bdbdbd;
+}
+a.ui-changephone-btn {
+  margin: auto;
+  margin-top: .666667rem;
+  display: block;
+  color: #fff;
+  background: #fa455c;
+  width: 8.666667rem;
+  height: .933333rem;
+  line-height: .933333rem;
+  text-align: center;
+  font-size: 16px;
+}
+[data-dpr="2"] a.ui-changephone-btn {
+  font-size: 32px;
+}
+[data-dpr="3"] a.ui-changephone-btn {
+  font-size: 48px;
+}

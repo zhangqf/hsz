@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>condition</title>
+    <link rel="stylesheet" href="./css/condition.css" type=" text/css ">
+    <script src="./common/flexible_css.debug.js " type="text/javascript "></script>
+    <script src="./common/flexible.debug.js " type="text/javascript "></script>
+</head>
+
+<body>
+    <div class="ui-recordofdonation-header">
+
+        <a href="">
+            <img src="./images/back_arrow.png " alt=" ">
+        </a> 青海红十字会爱心公社
+    </div>
+    <div class="ui-bannerimg">
+        <!-- <img src="./images/banner_02.png" alt="" class="ui-bannerimg"> -->
+        <p class="ui-imgtit">少儿健康互助计划</p>
+        <p class="ui-imgsec">最高获捐30万元</p>
+        <p class="ui-imgage">出生后28天————17周岁</p>
+    </div>
+    <div class="ui-condition-desc">
+        <p class="ui-pzero">
+            为加入本计划，您需要为加入本计划，您需要为加入本计划，您，您需要为加入本计划，需00要为加入本计划，您需要为加入本计划，您需要为加入本计划，您需要为加入为加入本计划，您需要为加入本计划，您需要为加入本计划，您需要为加入本计划，您需要为加入本计划，您需要为加入本计划，您需要为加入为加入本计划，您需要为加入本计划，您需要为加入本计划，您需要为加入本计划，您需要为加入本计划，您需要为加入本计划，您需要为加入
+        </p>
+        <p class="ui-pfirst">
+            <span>一、</span><span>为加入本计划，您需要为加入本计划，您需要为加入本计划您需要为加入本计划，您需要为加入本计划，您需要为加入本计划您需要为加入本计</span>
+        </p>
+        <p class="ui-pfirst">
+            <span>二、</span>
+            <span>为加入本计划，您需要为加入本计划，您需要为加入本计划您需要为加入本计划，您需要为加入本计划，您需要为加入本计划您需要为加入本计</span>
+        </p>
+        <p class="ui-pfirst">
+            <span>三、</span>
+            <span>为加入本计划，您需要为加入本计划，您需要为加入本计划您需要为加入本计划，您需要为加入本计划，您需要为加入本计划您需要为加入本计</span>
+        </p>
+        <p class="ui-pfirst" style="border-bottom: none">
+            <span>四、</span>
+            <span>为加入本计划，您需要为加入本计划，您需要为加入本计划您需要为加入本计划，您需要为加入本计划，您需要为加入本计划您需要为加入本计</span>
+        </p>
+    </div>
+    <div class="ui-condition-btn">
+        <div class="ui-btn-left"><a href="javascript:;">部分不符合</a> </div>
+        <div class="ui-btn-right"><a href="">符合条件，继续</a> </div>
+    </div>
+    <!-- <div class="ui-condition-tips">
+        <h6>提示</h6>
+        <p>很抱歉，由于健康情况不符合加入条件，被保障人不能参与该互助计划。<br> 如所患疾病轻微（阑尾炎等），不确定是否就可以加入，
+            <br> 请咨询客服：<span class="tips-phone">400-0654-369</span>
+        </p>
+        <div class="ui-tips-btn">
+            <div class="btn-left">重新确认</div>
+            <div class="btn-right">
+                查看其它计划
+            </div>
+        </div>
+    </div> -->
+    <script src="./common/jquery-1.11.0.js"></script>
+    <script>
+        $(".ui-btn-left").on("click", function() {
+            console.log($(window).height())
+            var width = $(window).width(),
+                height = $(window).height();
+            console.log(width + "--" + height)
+            var $div = $("<div class='shade'></div>")
+            $div.append($(`<div class="ui-condition-tips">
+        <h6>提示</h6>
+        <p>很抱歉，由于健康情况不符合加入条件，被保障人不能参与该互助计划。<br> 如所患疾病轻微（阑尾炎等），不确定是否就可以加入，
+            <br> 请咨询客服：<span class="tips-phone">400-0654-369</span>
+        </p>
+        <div class="ui-tips-btn">
+            <div class="btn-left">重新确认</div>
+            <div class="btn-right">
+                查看其它计划
+            </div>
+        </div>
+    </div>`));
+            $div.width(width);
+            $div.height(height);
+            $('body').append($div)
+            $('body').css('overflow', 'hidden'); //浮层出现时窗口不能滚动设置
+        })
+        $("body").on("click", ".btn-left", function() {
+            console.log(2)
+            $(".shade").hide()
+            $('body').css('overflow', 'auto')
+        })
+    </script>
+</body>
+
+</html>

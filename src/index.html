@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>青海红十字会爱心公社</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="/css/index.css">
+    <!-- <script src="./common/flexible.js"></script>
+    <script src="./common/flexible_css.js"></script> -->
+    <link rel="stylesheet" href="./common/swiper.min.css">
+    <script src="./common/flexible_css.debug.js"></script>
+    <script src="./common/flexible.debug.js"></script>
+
+</head>
+
+<body>
+    <div class="ui-header">青海红十字会爱心公社</div>
+    <div class="ui-swiper swiper-container" id="swiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./images/20.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/25.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="ui-nav">
+        <a href="javascript:;" class="ui-donation"><img src="./images/08.png" alt=""><span>在线捐款</span></a>
+        <a href="javascript:;" class="ui-claim"><img src="./images/10.png" alt=""><span>在线认领</span></a>
+    </div>
+    <div class="ui-donation-container swiper-container1" id="swiper2">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="./images/04.png" alt="">
+                    <span class="ui-title">爱心救助捐款</span>
+                    <span class="ui-progress"></span>
+                    <span>已筹<em>40000.00</em>元</span>
+                </a>
+
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/01.png" alt="">
+            </div>
+            <div class="swiper-slide">1</div>
+            <div class="swiper-slide">1</div>
+            <div class="swiper-slide">1</div>
+            <div class="swiper-slide">1</div>
+            <div class="swiper-slide">1</div>
+        </div>
+
+    </div>
+    <div class="ui-claim-container">
+
+    </div>
+    <script src="./common/swiper.min.js"></script>
+    <script>
+        var myswiper = new Swiper("#swiper1", {
+            loop: true,
+            autoplay: 4000,
+        })
+    </script>
+    <!-- <script language="javascript">
+        var mySwiper = new Swiper('#swiper2', {
+            slidesOffsetBefore: 100,
+            slidesPerView: 3,
+            spaceBetween: 20,
+            loop: true,
+            autoplay: 2000,
+        })
+    </script> -->
+</body>
+
+</html>
