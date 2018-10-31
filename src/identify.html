@@ -25,21 +25,21 @@
                     <img src="./images/identify1_03.jpg" alt="" class="img0">
 
                 </div>
-                <input type="file" id="upload0" style="display: none" onchange="fileImport();">
+                <input type="file" id="upload0" style="display: none" onchange="fileImport();" multiple>
             </li>
             <li>
                 <h6>身份证背面</h6>
                 <div class="ui-identify-img">
                     <img src="./images/identify1_07.jpg" alt="" class="img1">
                 </div>
-                <input type="file" id="upload1" style="display: none" onchange="fileImport();">
+                <input type="file" id="upload1" style="display: none" onchange="fileImport();"accept="image/*" capture="camera">
             </li>
             <li>
                 <h6>手持身份证正面</h6>
                 <div class="ui-identify-img">
                     <img src="./images/identify2_09.jpg" alt="" class="img2">
                 </div>
-                <input type="file" id="upload2" style="display: none" onchange="fileImport();">
+                <input type="file" id="upload2" style="display: none" onchange="fileImport();" accept="video/*" capture="camcorder">
             </li>
         </ul>
     </div>
@@ -70,7 +70,7 @@
                 $(".img" + index).attr('src', localStorage.getItem("src1"))
             }
 
-            // console.log(localStorage.getItem("src1"))
+            console.log($('#upload' + index).val())
         }
     </script>
 
